@@ -12,3 +12,7 @@ Route::get('/catalog', [CatalogController::class,'index']);
 Route::get('/propuestas', function () {
     return view('propuestas');
 });
+
+Route::get('/propuestas-navbar', function () {
+    return view('propuestas-navbar');
+});

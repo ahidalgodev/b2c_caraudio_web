@@ -1,20 +1,6 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>B2C Car Audio</title>
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
-</head>
-<body class="bg-neutral-900 text-white">
+<x-layouts.app title="Catálogo - B2C Car Audio">
     
-    <!-- Header -->
-    <header class="bg-black py-6 border-b border-yellow-400">
-        <div class="container mx-auto px-4">
-            <h1 class="text-2xl md:text-3xl font-bold text-yellow-400">B2C Car Audio</h1>
-            <p class="text-gray-400">Los mejores productos de audio para tu auto</p>
-        </div>
-    </header>
+    <x-navbar />
 
     <!-- Catálogo -->
     <main class="container mx-auto px-4 py-8">
@@ -45,5 +31,4 @@
         </div>
     </main>
 
-</body>
-</html>
+</x-layouts.app>
