@@ -1,8 +1,10 @@
 <header class="bg-neutral-800">
     <div class="container mx-auto px-4">
         <div class="flex items-center justify-between py-4">
-            <a href="/" class="text-2xl font-bold text-yellow-400">B2C Car Audio</a>
-            
+            <a href="/">
+                <img src="/images/logo.png" alt="B2C Car Audio" class="h-10">
+            </a>
+
             <div class="hidden md:flex flex-1 max-w-xl mx-8">
                 <input type="text" placeholder="Buscar productos..." class="w-full px-4 py-2 rounded-l-lg bg-neutral-700 text-white border border-neutral-600 focus:border-yellow-400 focus:outline-none placeholder-gray-400">
                 <button class="bg-yellow-400 text-black px-4 py-2 rounded-r-lg hover:bg-yellow-300 transition">
@@ -35,7 +37,7 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Barra de categorías -->
     <nav class="border-t border-neutral-700 bg-neutral-900">
         <div class="container mx-auto px-4">

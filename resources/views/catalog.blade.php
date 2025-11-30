@@ -1,6 +1,7 @@
-<x-layouts.app title="Catálogo - B2C Car Audio">
+<x-layouts.app title="B2C Car Audio">
     
     <x-navbar />
+    <x-hero-slider />
 
     <!-- Catálogo -->
     <main class="container mx-auto px-4 py-8">
