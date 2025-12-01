@@ -19,7 +19,7 @@
         
         <!-- Slide 1: Audio de auto -->
         <div class="w-full flex-shrink-0 relative">
-            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&h=600&fit=crop" alt="Audio para autos" class="w-full h-64 md:h-96 lg:h-[500px] object-cover">
+            <img src="/images/banner1.jpg" alt="Audio para autos" class="w-full h-64 md:h-96 lg:h-[500px] object-cover">
             <div class="absolute inset-0 bg-black/40 flex items-center">
                 <div class="container mx-auto px-4">
                     <h2 class="text-3xl md:text-5xl font-bold text-white mb-4">Amplificadores Boss</h2>
@@ -31,7 +31,7 @@
 
         <!-- Slide 2: Parlantes -->
         <div class="w-full flex-shrink-0 relative">
-            <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1920&h=600&fit=crop" alt="Parlantes y sonido" class="w-full h-64 md:h-96 lg:h-[500px] object-cover">
+            <img src="/images/banner2.jpg" alt="Parlantes y sonido" class="w-full h-64 md:h-96 lg:h-[500px] object-cover">
             <div class="absolute inset-0 bg-black/40 flex items-center">
                 <div class="container mx-auto px-4">
                     <h2 class="text-3xl md:text-5xl font-bold text-white mb-4">Subwoofers Sony</h2>
@@ -43,7 +43,7 @@
 
         <!-- Slide 3: Ambiente musical -->
         <div class="w-full flex-shrink-0 relative">
-            <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1920&h=600&fit=crop" alt="Experiencia musical" class="w-full h-64 md:h-96 lg:h-[500px] object-cover">
+            <img src="/images/banner3.jpg" alt="Experiencia musical" class="w-full h-64 md:h-96 lg:h-[500px] object-cover">
             <div class="absolute inset-0 bg-black/40 flex items-center">
                 <div class="container mx-auto px-4">
                     <h2 class="text-3xl md:text-5xl font-bold text-white mb-4">Productos de Limpieza</h2>
