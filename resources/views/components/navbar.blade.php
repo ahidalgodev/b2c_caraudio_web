@@ -1,4 +1,20 @@
-<header class="bg-neutral-800 sticky top-0 z-50">
+<header 
+    x-data="{ 
+        lastScrollY: 0,
+        hidden: false,
+        handleScroll() {
+            if (window.scrollY > this.lastScrollY && window.scrollY > 100) {
+                this.hidden = true;
+            } else {
+                this.hidden = false;
+            }
+            this.lastScrollY = window.scrollY;
+        }
+    }"
+    @scroll.window="handleScroll()"
+    :class="hidden ? '-translate-y-full' : 'translate-y-0'"
+    class="bg-neutral-800 sticky top-0 z-50 transition-transform duration-300"
+>
     <div class="container mx-auto px-4">
         <div class="flex items-center justify-between py-4">
             <a href="/">

@@ -3,11 +3,12 @@
 use App\Http\Controllers\CatalogController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [CatalogController::class,'index']);
 
-Route::get('/catalog', [CatalogController::class,'index']);
+Route::get('/product/{id}', function ($id) {
+    $product = App\Models\Product::find($id);
+    return view('propuestas-product', ['product' => $product]);
+});
 
 Route::get('/propuestas', function () {
     return view('propuestas');
